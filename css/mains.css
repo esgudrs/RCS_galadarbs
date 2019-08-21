@@ -1,0 +1,35 @@
+.content-size {
+	position: relative;
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.product-list-main {
+	border-bottom: 3px solid #333;
+	padding: 0px 10px 10px 10px;
+}
+
+.product-item {
+	position: relative;
+	border: 3px solid #333;
+	border-radius: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.chechk-box {
+	position: absolute;
+	left: 20px;
+	top: 15px
+}
+
+input[type=checkbox]
+{
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+
